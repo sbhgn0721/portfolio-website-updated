@@ -1,61 +1,133 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-     <meta charset="UTF-8">
-     <title>My Portfolio</title>
 
-     <!-- link css stylesheet-->
-     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-     
-     <!-- link font awesome icon-->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    </head>
-    
-    <body>
-       <!-- The fixed header -->
-       <div class="header clearfix">
-           <div class = header-with-width>
-                <div class="my-logo">
-                    <p>Hongliao Xiong</p>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- link css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- link font awesome icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- link google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+
+<body>
+    <div id="home">
+        <div id="landing-text">
+            <p id="name">Hongliao Xiong</p>
+            <p id="role">a web designer</p>
+        </div>
+
+        <div id="wrap-social">
+            <ul>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="assets/files/Hongliao Xiong_Resume.pdf" target="_blank">Resume</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/hongliao-xiong-69135ba9/" target="_blank">Linkedin</a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/sbhgn0721" target="_blank">Github</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <div class="padding" id="about-me">
+        <img src="assets/images/bio_photo.JPG" id="bio-photo" alt="bio photo">
+
+        <div class="introduction">
+            <h3>Hi.</h3>
+
+            <p class="lead">I'm a web developer borned in China, and now living in Seattle, WA. I
+                Love both of traditional Chinese culture and western culture. I have a passion for web design
+                and love to create for web and mobile devices.</p>
+        </div>
+
+    </div>
+
+
+    <div class="padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 project">
+                    <a href="https://sbhgn0721.github.io/project-1-weather-spot/" target="_blank"><img
+                            class="project-image" src="assets/images/rsz_weather-spot.png" alt="weather-spot"></a>
+                    <div class="middle">
+                        <div class="text">Weather Spot</div>
+                    </div>
+
                 </div>
-            
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li id="header_contact"><a href="contact.html">Contact</a></li>
-                    </ul>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 project">
+                    <a href="https://sbhgn0721.github.io/trivia-game/" target="_blank"><img class="project-image"
+                            src="assets/images/rsz_triviagame.png" alt="trivia-game"></a>
+                    <div class="middle">
+                        <div class="text">Trivia Game</div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 project">
+                    <a href="https://sbhgn0721.github.io/train_scheduler_bonus/" target="_blank"><img
+                            class="project-image" src="assets/images/rsz_train-_scheduler_bonus.png"
+                            alt="train-scheduler"></a>
+                    <div class="middle">
+                        <div class="text">Train Scheduler</div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 project">
+                    <a href="https://sbhgn0721.github.io/word-guess-game/" target="_blank"><img class="project-image"
+                            src="assets/images/rsz_wordguessgame.png" alt="world guess game"></a>
+                    <div class="middle">
+                        <div class="text">Word Guess Game</div>
+                    </div>
                 </div>
             </div>
-       </div>
-        
-       <!-- Main Content -->
-       <div class="main-content clearfix" >
-           <div class="heading">
-                <h1>About Me</h1>
-           </div>
-           
-           <div class="content">
-               <div class="float-bio-photo">
-                    <img src="assets/images/bio_photo.JPG" style="width:200px; height:200px" alt="bio photo">
-               </div>
 
-               <div class="introduction">
-                    <p>Hi, there! My name is Hongliao Xiong. If you cannot pronounce my name correctly, that’s okay, 99% of people cannot... Luckily, there is another way to get to know me, which is through <a href="portfolio.html">my portfolio page</a>. Hopefully, you can see my interests, my passions, and my values in these projects. If anything in my works can strike a chord in your heart, I will be so lucky!</p>
-                    <p>As my name suggests, I originally come from China. Now, I live in beautiful Seattle. I love both of traditional Chinese culture and western culture. I celebrate Luna New Year with red and decorate my house with green and white for Christmas. I love celebrating holidays, because it makes me feel warm and peaceful. Hopefully, my work can bring you the happiness just like what you find in your favorite holiday. Think we can celebrate something together? Feel free to contact me! <a href="contact.html"><i class="far fa-address-book"></i></a></p>
-               </div>
 
-               
-            
-           
-           </div>
-           
-       
-       </div>
-       
-       <!-- The fixed footer -->
-       <div class="footer">
-           <p>Copyright &copy;</p>
-       </div>
-    </body>
+        </div>
+    </div>
+
+
+
+    <footer class="container-fluid text-center" id="contact"> 
+        <div class="row">
+            <div class="col-sm-6 col-xs-12" id="contact-info">
+                <h6>Contact</h6>
+                <p>Email: hongliaoxiong@gmail.com</p>
+                <p>Tel: 217-417-8926</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h6>Connect</h6>
+                <a href="https://www.linkedin.com/in/hongliao-xiong-69135ba9/" class="fab fa-linkedin-in"></a>
+                <a href="https://github.com/sbhgn0721" class="fab fa-github"></a>
+                <a href="assets/files/Hongliao Xiong_Resume.pdf" class="fas fa-file"></a>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
 </html>
