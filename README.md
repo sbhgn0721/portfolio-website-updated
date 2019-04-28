@@ -1,3 +1,2 @@
 # portfolio-website-updated
-## The source of the clouds image
-<a href="https://pngtree.com/">Graphics from pngtree.com</a>
+### The website contains my contact information, brief introduction and an image gallery for my projects.
