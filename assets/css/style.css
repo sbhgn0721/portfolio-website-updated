@@ -216,10 +216,16 @@ footer {
 
 }
 
+.short-text {
+    font-size: 4rem;
+}
+
 @media screen and (max-width: 980px) {
     #wrap-social ul {
-        right: 15%;
-        
+        right: 15%;        
+    }
+    .short-text {
+         font-size: 2rem; 
     }
 }
 
@@ -227,6 +233,9 @@ footer {
     #wrap-social ul{
         right: 12%;
         
+    }
+    .short-text {
+        font-size: 2rem; 
     }
 
 }
@@ -237,9 +246,10 @@ footer {
         right: 10%;
         
     }
+    .short-text {
+        font-size: 2rem; 
+    }
 }
-
-
 
 
 
