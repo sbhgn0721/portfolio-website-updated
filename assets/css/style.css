@@ -217,7 +217,7 @@ footer {
 }
 
 .short-text {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 980px) {
@@ -247,7 +247,7 @@ footer {
         
     }
     .short-text {
-        font-size: 2rem; 
+        font-size: 1.25rem; 
     }
 }
 
