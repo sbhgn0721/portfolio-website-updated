@@ -129,7 +129,6 @@ html, body {
     margin: auto;
     margin-top: 20px;
     font-family: sans-serif;
-    line-height: 200%;
     text-align: center;
     width: 50%;
 }
@@ -217,15 +216,29 @@ footer {
 }
 
 .short-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 980px) {
+    #name {
+        font-size: 3.0rem;
+    }
+    #role {
+        font-size: 2.0rem;
+    }
     #wrap-social ul {
-        right: 15%;        
+        right: 15%; 
+             
+    }
+    #wrap-social li{
+        font-size: 2.5rem;
+        margin: 80px;
+    }
+    h3 {
+        font-size: 3.0rem;
     }
     .short-text {
-         font-size: 2rem; 
+         font-size: 3.0rem; 
     }
 }
 
@@ -247,7 +260,7 @@ footer {
         
     }
     .short-text {
-        font-size: 1.25rem; 
+        font-size: 2rem; 
     }
 }
 
